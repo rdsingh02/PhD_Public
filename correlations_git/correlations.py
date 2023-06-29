@@ -74,6 +74,7 @@ def corr_plot(data, type, image, excel):
 
     #creating the mask
     mask = np.triu(np.ones_like(p, dtype=np.bool))
+    ## if you are using higher version of python, use dtype=bool
 
     #initialising the matplotlib functions
 
